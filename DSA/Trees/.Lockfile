@@ -21,7 +21,7 @@ tree *insert(tree *root,int idata)
     if(root==NULL)
     {
         root=newnode(idata);
-        cout<<"Hurray! node inserted"<<endl;
+        
     }
     else if(root->data<=idata)
     {
